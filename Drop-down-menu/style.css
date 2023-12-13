@@ -1,0 +1,25 @@
+* {
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-menu {
+  display: block;
+  background-color: gray;
+  color: black;
+  max-width: 4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-bar > p {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: rgb(197, 78, 22);
+  color: white;
+  max-width: 4rem;
+  padding: 0px 1rem;
+}

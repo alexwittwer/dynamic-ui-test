@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.slide-item {
+  display: none;
+  animation: fade 250ms ease-in;
+  transition: 250ms;
+}
+
+.slide-item img {
+  width: 800px;
+  object-fit: cover;
+}
+
+.active {
+  display: block;
+  animation: fade-in 1000ms ease-out;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider button {
+  border: none;
+  background-color: slategray;
+  color: white;
+  font-size: 2rem;
+  padding: 15px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

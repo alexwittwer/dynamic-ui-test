@@ -1,0 +1,37 @@
+* {
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-menu {
+  display: block;
+  background-color: darkslategray;
+  color: white;
+  width: 4rem;
+  animation: slide-in 150ms ease-in;
+}
+
+.nav-menu p:hover {
+  background-color: darkorange;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-bar > button {
+  background-color: darkorange;
+  color: white;
+  width: 4rem;
+}
+
+@keyframes slide-in {
+  0% {
+    max-height: 0px;
+  }
+  100% {
+    max-height: 200px;
+  }
+}
